@@ -1,17 +1,22 @@
-            #logo {
+          #logo {
             display: block;
             align-self: center;
-            padding-left: 45%;
-            width: 50%;
-            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 120px;
+            width: 360px;
             
           }
           
           #search-bar{
+            display: block;
             align-self: center;
+            margin-left: auto;
+            margin-right: auto;
             line-height: 100px;
             height: 100px;
             text-align: center;
+            width: auto;
             
           }
           
@@ -24,10 +29,6 @@
 
           }
 
-          .search-buttons{
-            
-
-          }
 
           .footer-left{
 
@@ -36,13 +37,6 @@
 
           .footer-right{
             
-          }
-          
-          ul {
-            list-style-type: none;
-            align-self: center;
-            margin: 100;
-            padding: 100;
           }
           
           #profile-pic {
