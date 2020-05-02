@@ -5,10 +5,22 @@
             margin-right: auto;
             width: 120px;
             width: 360px;
-            
           }
-          
-          #search-bar{
+
+          input[type=text] {
+            width: 550px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            background-image: url(images/magnifying-glass.svg);
+            background-size: 20px;
+            background-repeat: no-repeat;
+            background-color: white;
+            background-position: 10px 10px;
+            padding-left: 40px;
+          }
+
+          .search-bar{
             display: block;
             align-self: center;
             margin-left: auto;
@@ -19,7 +31,15 @@
             width: auto;
             
           }
-          
+
+          .nav-bar{
+
+          }
+
+          .footer{
+            
+          }
+
           .nav-bar-left{
             
           }
@@ -29,6 +49,7 @@
 
           }
 
+         
 
           .footer-left{
 
