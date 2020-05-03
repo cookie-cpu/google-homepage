@@ -1,6 +1,8 @@
  <!--TODO
         -Allign divs to correct position
-        -Change image sources to local files
+        -Style Nav bar
+        -Style Footer
+        -Fix error where "other apps" image does not display
         -->
 
 <!DOCTYPE html>
@@ -13,18 +15,12 @@
     <body>
         <header class="nav-bar">
           <div class="nav-bar-left">
-          <ul>
-              <li><a href="">About</a></li>
-              <li><a href="">Store</a></li>
-          </ul> 
-          </div>
-
-
-          <div class="nav-bar-right">
-          <li><a href="">Gmail</a></li>
-          <li><a href="">Images</a></li>
-          <img src="/images/other-apps.png" alt="other-apps">
-          <img id="profile-pic" src="https://cliparting.com/wp-content/uploads/2016/10/Person-clipart-image.png" alt="Profile-Photo"style="width:50px;height:50px;">
+              <li style="float:left"><a href="">About</a></li>
+              <li style="float:left"><a href="">Store</a></li>
+              <li style="float:right"><a href="">Gmail</a></li>
+              <li style="float:right"><a href="">Images</a></li>
+              <img src="/images/other-apps.png" alt="other-apps" style="float:right">
+              <img id="profile-pic" src="images/profile.png" alt="Profile-Photo" style="float:right">
           </div>
         </header>
 
@@ -40,7 +36,7 @@
           </form>
         </div>
 
-        <footer>
+        <footer class="footer">
             <div class="footer-left">
             <li><a href="">Advertising</a></li>
             <li><a href="">Business</a></li>

@@ -33,11 +33,15 @@
           }
 
           .nav-bar{
-
+            position: fixed;
+            top: 0;
+            width: 100%;
           }
 
           .footer{
-            
+            position: fixed;
+            bottom: 0;
+             width: 100%;
           }
 
           .nav-bar-left{
@@ -45,11 +49,9 @@
           }
 
           .nav-bar-right{
-            
+            float:right;
 
           }
-
-         
 
           .footer-left{
 
@@ -57,9 +59,11 @@
           }
 
           .footer-right{
-            
+            float:right;
           }
           
           #profile-pic {
             border-radius: 50%;
+            width:50px;
+            height:50px;
           }
